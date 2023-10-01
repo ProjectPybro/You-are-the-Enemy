@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=3 uid="uid://bpduarinpx601"]
+
+[ext_resource type="PackedScene" uid="uid://7p3w2myyna8f" path="res://scenes/characters/enemy.tscn" id="1_7e5bh"]
+
+[node name="Level" type="Node2D"]
+position = Vector2(32, 0)
+
+[node name="Enemies" type="Node2D" parent="."]
+
+[node name="Enemy" parent="Enemies" instance=ExtResource("1_7e5bh")]
+position = Vector2(32, 96)
+
+[node name="Enemy2" parent="Enemies" instance=ExtResource("1_7e5bh")]
+position = Vector2(160, 96)
+
+[node name="Enemy3" parent="Enemies" instance=ExtResource("1_7e5bh")]
+position = Vector2(288, 96)
+
+[node name="Enemy4" parent="Enemies" instance=ExtResource("1_7e5bh")]
+position = Vector2(416, 96)
+
+[node name="Enemy5" parent="Enemies" instance=ExtResource("1_7e5bh")]
+position = Vector2(544, 96)
+
+[node name="Enemy6" parent="Enemies" instance=ExtResource("1_7e5bh")]
+position = Vector2(672, 96)
+
+[node name="Enemy7" parent="Enemies" instance=ExtResource("1_7e5bh")]
+position = Vector2(800, 96)
+
+[node name="Enemy8" parent="Enemies" instance=ExtResource("1_7e5bh")]
+position = Vector2(928, 96)
+
+[node name="Enemy9" parent="Enemies" instance=ExtResource("1_7e5bh")]
+position = Vector2(1056, 96)
